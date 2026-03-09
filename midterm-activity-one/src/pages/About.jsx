@@ -1,10 +1,10 @@
-import React from "react";
-
-export default function About() {
+function About() {
   return (
-    <main style={{ padding: 24 }}>
-      <h1>About</h1>
-      <p>Placeholder About page.</p>
-    </main>
+    <div>
+      <h2>About</h2>
+      <p>This project demonstrates routing and React hooks.</p>
+    </div>
   );
 }
+
+export default About;
